@@ -2,14 +2,14 @@
 
 html {
     margin: 25px;
-    background-color: lightblue;
+    background-color: paleturquoise;
     font-family: verdana;
     font-size: 20px;
 }
 
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
+    background-color: palegoldenrod;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -18,4 +18,61 @@ p {
     margin-top: 10px;
     margin-left: 15px;
     background-color: lightblue;
+}
+
+.hero {
+    background-color: #f5f5f5; /* Light background color */
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.hero-body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #363636;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: #7a7a7a;
+}
+#content h1 { /* Targeting the h1 within the content area of pages.html */
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+#content ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+#content li {
+    margin-bottom: 0.75rem;
+}
+
+#content li a {
+    display: block; /* Make the entire list item clickable */
+    padding: 0.5rem 1rem;
+    background-color: #e0f2f7; /* Light background for each link */
+    color: #03a9f4; /* Link color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#content li a:hover {
+    background-color: #b3e5fc;
+}
+.author-photo {
+    max-width: 150px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the image vertically with the text */
+    margin-left: 10px; /* Add some spacing to the left of the image */
+    border-radius: 5px; /* Optional: Add rounded corners */
 }

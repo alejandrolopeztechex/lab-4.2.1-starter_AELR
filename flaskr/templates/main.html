@@ -28,8 +28,18 @@
     <!-- The below tag is using Bulma CSS. Try replacing line 30 with line 29. -->
     <!-- <div class="content"> -->
     <div>
-        {% block content %}{{ page_content }}{% endblock %}
+        {% block content %}
+        <div class="hero">
+            <div class="hero-body">
+                <h1 class="title">Welcome to Our Story Website!</h1>
+                <p class="subtitle">Discover and read captivating stories from our talented authors.</p>
+            </div>
+        </div>
+        {{ page_content }}
+        <p>This is a paragraph. </p>
+        {% endblock %}
     </div>
+
 
 </body>
 
